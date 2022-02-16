@@ -16,7 +16,7 @@ graph TD;
   MAP --> DEPTHS;
   DEPTHS --> METABAT2;
   ASSEMBLE --> METABAT2;
-  style METABAT2 fill:#f9f,stroke:#333,stroke-width:4px
+  style METABAT2 fill:#f9f,stroke:#333,stroke-width:1px
 ```
 
 ## Reproduce the error
