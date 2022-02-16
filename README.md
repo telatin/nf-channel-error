@@ -8,7 +8,9 @@ graph TD;
   INPUT -- reads --> ASSEMBLE;
   INPUT -- reads -->   MAP;
   ASSEMBLE --> MAXBIN;
-  C-->D;
+  ASSEMBLE --> INDEX;
+  INDEX --> MAP;
+  MAP --> DEPTHS;
 ```
 
 ```mermaid
