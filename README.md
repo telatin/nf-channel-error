@@ -1,6 +1,7 @@
 # nf-channel-error: antipattern mining
 
 Example workflow where channels can mix loosing the synchronization with the input files.
+
 Process **Metabat2** in this example is connected twice to the source reads, but there is no guarantee that the read pair received from **Depths** will match the read pair received via **Assembly**.
 
 How to create a pattern to synchronize these?
