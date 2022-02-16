@@ -36,3 +36,23 @@ Alternatively, to let the pipeline crash when there is a sample mismatch:
 ```bash
 nextflow run mess.nf --crash
 ```
+
+## Workaround
+
+`fix.nf` adds a "filtering" step that is then used downstream.
+
+
+```mermaid
+graph TD;
+
+  INPUT -- reads --> FILT;
+  FILT --> ASSEMBLE;
+  FILT -->   MAP;
+  ASSEMBLE --> MAXBIN;
+  ASSEMBLE --> INDEX;
+  INDEX --> MAP;
+  MAP --> DEPTHS;
+  DEPTHS --> METABAT2;
+  ASSEMBLE --> METABAT2;
+  style METABAT2 fill:#f9f,stroke:#333,stroke-width:1px
+```
