@@ -12,4 +12,5 @@ graph TD;
   INDEX --> MAP;
   MAP --> DEPTHS;
   DEPTHS --> METABAT2;
+  ASSEMBLE --> METABAT2;
 ```
