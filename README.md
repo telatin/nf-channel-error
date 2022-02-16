@@ -12,7 +12,7 @@ Example workflow where channels can mix loosing the synchronization with the inp
 ```
 
 ```mermaid
-flowchart DAG;
+graph DAG;
   INPUT -- reads --> ASSEMBLE;
   ASSEMBLE --> MAXBIN;
   ASSEMBLE  --> INDEX;
