@@ -62,6 +62,8 @@ graph TD;
 
 Joining the channels (and changing the input required by the process will solve the problem, as both channels have the same key.
 
+See [solve.nf](solve.nf) for the working example.
+
 ```nextflow
 METABAT2(   ASSEMBLE.out.join(DEPTHS.out), params.crash )
 ```
