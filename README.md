@@ -4,11 +4,11 @@ Example workflow where channels can mix loosing the synchronization with the inp
 
 
 ```mermaid
-  graph TD;
-      A -- yes --> B;
-      A-->C;
-      B-->D;
-      C-->D;
+graph TD;
+  A -- yes --> B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
 
 ```mermaid
