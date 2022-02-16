@@ -1,1 +1,0 @@
-jgi_summarize_bam_contig_depths:T8.bam
