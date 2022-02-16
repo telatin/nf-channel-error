@@ -1,0 +1,11 @@
+Reads: S01_R1.fastq.gz,S01_R2.fastq.gz
+Index: GTA9375293.contigs.fa
+total 8
+lrwxr-xr-x  1 telatina  11903  109 16 Feb 09:50 GTA9375293.contigs.fa.amb -> /Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.amb
+lrwxr-xr-x  1 telatina  11903  109 16 Feb 09:50 GTA9375293.contigs.fa.ann -> /Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.ann
+lrwxr-xr-x  1 telatina  11903  109 16 Feb 09:50 GTA9375293.contigs.fa.bwt -> /Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.bwt
+lrwxr-xr-x  1 telatina  11903  109 16 Feb 09:50 GTA9375293.contigs.fa.pac -> /Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.pac
+lrwxr-xr-x  1 telatina  11903  108 16 Feb 09:50 GTA9375293.contigs.fa.sa -> /Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.sa
+-rw-r--r--  1 telatina  11903   68 16 Feb 09:50 S01.bam
+lrwxr-xr-x  1 telatina  11903   65 16 Feb 09:50 S01_R1.fastq.gz -> /Users/telatina/git/magflow/nf-channel-error/data/S01_R1.fastq.gz
+lrwxr-xr-x  1 telatina  11903   65 16 Feb 09:50 S01_R2.fastq.gz -> /Users/telatina/git/magflow/nf-channel-error/data/S01_R2.fastq.gz

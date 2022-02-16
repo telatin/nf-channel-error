@@ -22,8 +22,15 @@ graph TD;
 
 :warning: Note that multiple executions might be required as randomly the two channels might be in sync
 
-```
-nextflow run mess.nf --reads "data/*_R{1,2}.fastq.gz"
+```bash
+nextflow run mess.nf
 ```
 
-Check the output directory (`mags/metabat/*.error.*` to see the error).
+Check the output directory (`cat test-mess/metabat/*error.fa` to see the errors).
+
+
+Alternatively, to let the pipeline crash when there is a sample mismatch:
+
+```bash
+nextflow run mess.nf --crash
+```

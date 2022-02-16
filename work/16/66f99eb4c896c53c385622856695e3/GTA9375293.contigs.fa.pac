@@ -1,0 +1,1 @@
+/Users/telatina/git/magflow/nf-channel-error/work/73/452353540c06eb3c1320255d6e1765/GTA9375293.contigs.fa.pac
