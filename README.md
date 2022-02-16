@@ -1,6 +1,9 @@
 # nf-channel-error
 
-Example workflow where channels can mix loosing the synchronization with the input files
+Example workflow where channels can mix loosing the synchronization with the input files.
+Process **Metabat2** in this example is connected twice to the source reads, but there is no guarantee that the read pair received from **Depths** will match the read pair received via **Assembly**.
+
+How to create a pattern to synchronize these?
 
 
 ```mermaid
@@ -14,3 +17,13 @@ graph TD;
   DEPTHS --> METABAT2;
   ASSEMBLE --> METABAT2;
 ```
+
+## Reproduce the error
+
+:warning: Note that multiple executions might be required as randomly the two channels might be in sync
+
+```
+nextflow run mess.nf --reads "data/*_R{1,2}.fastq.gz"
+```
+
+Check the output directory (`mags/metabat/*.error.*` to see the error).
