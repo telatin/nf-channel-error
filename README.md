@@ -2,9 +2,7 @@
 
 Example workflow where channels can mix loosing the synchronization with the input files
 
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
-<details> 
-<summary></summary>
+```mermaid
 digraph "dag" {
 p0 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromFilePairs"];
 p1 [label="ASSEMBLE"];
@@ -52,4 +50,4 @@ p7 -> p8;
 
 }
 
-</details>
+```
