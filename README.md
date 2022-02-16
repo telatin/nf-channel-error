@@ -56,3 +56,12 @@ graph TD;
   ASSEMBLE --> METABAT2;
   style METABAT2 fill:#f9f,stroke:#333,stroke-width:1px
 ```
+
+
+## Solution
+
+Joining the channels (and changing the input required by the process will solve the problem, as both channels have the same key.
+
+```nextflow
+METABAT2(   ASSEMBLE.out.join(DEPTHS.out), params.crash )
+```
