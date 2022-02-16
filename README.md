@@ -55,6 +55,7 @@ graph TD;
   DEPTHS --> METABAT2;
   ASSEMBLE --> METABAT2;
   style METABAT2 fill:#f9f,stroke:#333,stroke-width:1px
+  style FILT fill:#ff2,stroke:#333,stroke-width:1px
 ```
 
 
