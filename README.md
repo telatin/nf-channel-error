@@ -11,15 +11,5 @@ graph TD;
   ASSEMBLE --> INDEX;
   INDEX --> MAP;
   MAP --> DEPTHS;
-```
-
-```mermaid
-graph DAG;
-  INPUT -- reads --> ASSEMBLE;
-  ASSEMBLE --> MAXBIN;
-  ASSEMBLE --> INDEX;
-  INDEX --> MAP;
-  MAP --> DEPTHS;
   DEPTHS --> METABAT2;
-  INPUT -- reads  --> MAP;
 ```
